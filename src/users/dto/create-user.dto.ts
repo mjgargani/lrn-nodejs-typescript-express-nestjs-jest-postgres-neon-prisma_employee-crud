@@ -6,6 +6,7 @@ export enum UserRole {
   ADMIN = 'ADMIN',
 }
 
+// https://github.com/typestack/class-validator#validation-decorators
 export class CreateUserDto {
   @IsString()
   @IsNotEmpty()
