@@ -12,7 +12,7 @@
 
 _TL;DR:_ Desenvolvimento de API REST utilizando `NestJS` e banco de dados `Serverless Postgres` (`Neon` + `Prisma ORM`).
 
-Este é um projeto que implementa uma `API CRUD` para gerenciamento de funcionários. O projeto utiliza `Node.js`, `TypeScript`, `Express`, `NestJS`, `Jest` para testes, `Neon` para o `Banco de Dados Postgres Serverless` e `Prisma` como o ORM.
+Este é um projeto que implementa uma `API CRUD` para gerenciamento de funcionários. O projeto utiliza `Node.js`, `TypeScript`, `Express`, `NestJS`, `Neon` para o `Banco de Dados Postgres Serverless` e `Prisma` como o ORM.
 
 ### Sobre os recursos
 
@@ -34,7 +34,7 @@ Este é um projeto que implementa uma `API CRUD` para gerenciamento de funcioná
 
 _TL;DR:_ REST API Development using `NestJS` and `Serverless Postgres` DB (`Neon` + `Prisma ORM`).
 
-This is a project that implements a `CRUD API` for employee management. The project uses `Node.js`, `TypeScript`, `Express`, `NestJS`, `Jest` for testing, `Neon` for the `Postgres Serverless Database`, and `Prisma` as the ORM.
+This is a project that implements a `CRUD API` for employee management. The project uses `Node.js`, `TypeScript`, `Express`, `NestJS`, `Neon` for the `Postgres Serverless Database`, and `Prisma` as the ORM.
 
 ## About the resources
 
