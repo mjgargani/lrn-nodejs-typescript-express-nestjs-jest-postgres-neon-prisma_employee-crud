@@ -1,73 +1,51 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Employee CRUD
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+![thumbnail](./thumbnail.webp)
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+> ⭐️ Projeto de estudo desenvolvido através do curso "Nest.js Full Course for Beginners" de Dave Gray: https://www.youtube.com/watch?v=8_X0nSrzrCw
+
+> ⭐️ Study project developed through Dave Gray's course "Nest.js Full Course for Beginners": https://www.youtube.com/watch?v=8_X0nSrzrCw
+
+## 🇧🇷 pt-br
+
+### Descrição
+
+_TL;DR:_ Desenvolvimento de API REST utilizando `NestJS` e banco de dados `Serverless Postgres` (`Neon` + `Prisma ORM`).
+
+Este é um projeto que implementa uma `API CRUD` para gerenciamento de funcionários. O projeto utiliza `Node.js`, `TypeScript`, `Express`, `NestJS`, `Jest` para testes, `Neon` para o `Banco de Dados Postgres Serverless` e `Prisma` como o ORM.
+
+### Sobre os recursos
+
+- [Nest](https://github.com/nestjs/nest) é um framework Node.js progressivo para construir aplicações eficientes;
+- [Neon](https://neon.tech/) oferece um serviço Postgres serverless para soluções de banco de dados escaláveis;
+- [Prisma](https://www.prisma.io/) é uma ferramenta ORM para consultas e migrações de banco de dados fáceis.
+
+### Como executar
+
+1. Clone o repositório;
+2. Instale as dependências com `npm install`;
+3. Crie um arquivo `.env` utilizando o exemplo de `.env.example`;
+4. Execute as migrações do ORM do Prisma com `npx prisma migrate dev`;
+5. Inicie o servidor com `npm run start:dev`.
+
+## 🇺🇸 en-us
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+_TL;DR:_ REST API Development using `NestJS` and `Serverless Postgres` DB (`Neon` + `Prisma ORM`).
 
-## Installation
+This is a project that implements a `CRUD API` for employee management. The project uses `Node.js`, `TypeScript`, `Express`, `NestJS`, `Jest` for testing, `Neon` for the `Postgres Serverless Database`, and `Prisma` as the ORM.
 
-```bash
-$ npm install
-```
+## About the resources
 
-## Running the app
+- [Nest](https://github.com/nestjs/nest) is a progressive Node.js framework for building efficient applications;
+- [Neon](https://neon.tech/) provides a serverless Postgres service for scalable database solutions;
+- [Prisma](https://www.prisma.io/) is an ORM tool for easy database queries and migrations.
 
-```bash
-# development
-$ npm run start
+## How to run
 
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+1. Clone the repository;
+2. Install the dependencies with `npm install`;
+3. Create a `.env` file using the example of `.env.example`;
+4. Run the Prisma's ORM migrations with `npx prisma migrate dev`;
+5. Start the server with `npm run start:dev`
